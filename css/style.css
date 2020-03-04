@@ -1,0 +1,123 @@
+body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0, 15px;
+  margin: 0, auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-screen {
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.main-screen__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.block-title {
+  width: 450px;
+  height: 15px;
+  background-color: rgb(9, 7, 22);
+  color: white;
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin: 0px, 0px, 20px, 0px;
+}
+.block{
+  text-align: center;
+  
+}
+
+.generation {
+  
+  background-color: rgb(250, 191, 114);
+  color: rgb(12, 6, 22);
+
+}
+/*# sourceMappingURL=style.css.map */
+ .cart {
+   background-color: rgba(255, 255, 255, 0.781);
+  /* background-image: url(../img/Fon3.jpg); */
+  width: 300px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 15px;
+  float: left;
+  text-align: center;
+  padding: 0px;
+}
+.cart .name {
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cart .cost {
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.cart .description {
+  font-size: 1.5rem;
+}
+
+.cart .add-to-cart {
+  font-size: 1.1rem;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.cart .add-to-cart:hover {
+  background: cadetblue;
+}
+.cart .add-to-cart:active {
+  background: red;
+}
+.goods-out {
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
+}
+.goods-out::after {
+content: "";
+display: block;
+clear: both;
+}
+
+.bottom-quotes {
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  
+}
+
+.cart-fonts {
+  background-image: url(../img/Fon3.jpg);
+}

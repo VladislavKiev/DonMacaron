@@ -1,0 +1,59 @@
+.ibg{
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    
+.ibg img{
+    
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    }
+
+body {
+        height: 100%;
+    }
+.container {
+        max-width: 1130px;
+        padding: 0, 15px;
+    }
+.wrapper {
+        overflow: hidden;
+        min-height: 100%;
+    }
+    
+.page{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+.main-screen {
+        flex: 1 0 100%;
+        position: relative;
+    }
+    
+.main-screen__bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+/* .content {
+
+} */
